@@ -7,7 +7,7 @@ return {
 
         -- Enable this to disable setting the background color
         -- ...when enabled, need to provide background_colour="#000000" for nvim-notify
-        transparent = false,
+        transparent = true,
         terminal_colors = true, -- Configure the colors used when opening a `:terminal` in Neovim
 
         styles = {
@@ -18,8 +18,8 @@ return {
             functions = { italic = true, bold = true },
             variables = {},
             -- Background styles. Can be "dark", "transparent" or "normal"
-            sidebars = "normal", -- style for sidebars, see below
-            floats = "normal", -- style for floating windows
+            sidebars = "transparent", -- style for sidebars, see below
+            floats = "transparent", -- style for floating windows
         },
 
         sidebars = { "qf", "help" }, -- Set a darker background on sidebar-like windows. For example: `["qf", "vista_kind", "terminal", "packer"]`
