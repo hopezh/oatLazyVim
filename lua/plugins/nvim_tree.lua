@@ -87,9 +87,13 @@ return {
                 },
             },
 
-            -- 	git = {
-            -- 		ignore = false,
-            -- 	},
+            filters = {
+                dotfiles = false,
+            },
+
+            git = {
+                ignore = false,
+            },
         })
     end,
 }
