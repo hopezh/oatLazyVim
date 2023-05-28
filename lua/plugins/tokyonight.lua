@@ -21,8 +21,8 @@ return {
             functions = { italic = true, bold = true },
             variables = {},
             -- Background styles. Can be "dark", "transparent" or "normal"
-            sidebars = "normal", -- style for sidebars, see below
-            floats = "normal", -- style for floating windows
+            sidebars = "transparent", -- style for sidebars, see below
+            floats = "transparent", -- style for floajing windows
         },
 
         sidebars = { "qf", "help" }, -- Set a darker background on sidebar-like windows. For example: `["qf", "vista_kind", "terminal", "packer"]`
