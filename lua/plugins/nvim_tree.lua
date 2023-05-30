@@ -76,7 +76,7 @@ return {
                 },
             },
 
-            diagnositcs = {
+            diagnostics = {
                 enable = true,
                 show_on_dirs = true,
                 icons = {
