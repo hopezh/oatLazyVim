@@ -32,3 +32,8 @@ vim.opt.viewoptions:remove("options")
 -- specify cursor line number color --------------------------------------------
 -- this will override relevant settings in tokynight
 -- vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "yellow" })
+
+-- use onedarkpro color scheme -------------------------------------------------
+-- vim.cmd("colorscheme onedark")
+-- vim.cmd("colorscheme onedark_vivid")
+-- vim.cmd("colorscheme onedark_dark")
