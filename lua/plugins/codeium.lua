@@ -15,7 +15,8 @@ return {
             },
 
             {
-                "<C-j>",
+                -- "<C-j>",
+                "<Down>",
                 function()
                     return vim.fn["codeium#CycleCompletions"](1)
                 end,
@@ -25,7 +26,8 @@ return {
             },
 
             {
-                "<C-k>",
+                -- "<C-k>",
+                "<Up>",
                 function()
                     return vim.fn["codeium#CycleCompletions"](-1)
                 end,
