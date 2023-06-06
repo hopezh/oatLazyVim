@@ -42,3 +42,7 @@ vim.cmd("set noswapfile")
 
 -- syntax ----------------------------------------------------------------------
 vim.cmd("syntax on")
+
+-- specify file format ---------------------------------------------------------
+-- to remove the ^M character at the end of each line
+opt.fileformat = "unix"
