@@ -7,6 +7,14 @@ return {
             "neovim/nvim-lspconfig",
         },
 
+        keys = {
+            {
+                "<leader>qp",
+                "<CMD>QuartoPreview<CR>",
+                desc = "Quarto Preview",
+            },
+        },
+
         config = function()
             require("quarto").setup({
                 debug = false,
@@ -25,13 +33,6 @@ return {
                         enabled = true,
                     },
                 },
-
-                -- keymap = {
-                --     hover = 'K',
-                --     definition = 'gd',
-                --     rename = '<leader>lR',
-                --     references = 'gr',
-                -- }
             })
         end,
     },
