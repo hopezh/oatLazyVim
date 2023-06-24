@@ -37,3 +37,6 @@ vim.opt.viewoptions:remove("options")
 -- vim.cmd("colorscheme onedark")
 -- vim.cmd("colorscheme onedark_vivid")
 -- vim.cmd("colorscheme onedark_dark")
+
+-- use the dark_flat color scheme ----------------------------------------------
+vim.cmd.colorscheme("dark_flat")
