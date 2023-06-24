@@ -19,16 +19,17 @@ return {
         require("nvim-tree").setup({
             -- change panel width by length of path --------------------------------------
             view = {
+                -- side = "right",
                 adaptive_size = true,
                 float = {
-                    enable = false,
+                    enable = true,
                     open_win_config = {
                         relative = "editor",
                         border = "rounded",
-                        width = 30,
-                        height = 30,
-                        row = 10,
-                        col = 1,
+                        -- width = 30,
+                        -- height = 30,
+                        -- row = 10,
+                        -- col = 1,
                     },
                 },
             },
