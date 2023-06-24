@@ -17,7 +17,6 @@ return {
 
     config = function()
         require("nvim-tree").setup({
-            -- change panel width by length of path --------------------------------------
             view = {
                 -- side = "right",
                 adaptive_size = true,
@@ -27,14 +26,13 @@ return {
                         relative = "editor",
                         border = "rounded",
                         -- width = 30,
-                        -- height = 30,
+                        height = 50,
                         -- row = 10,
                         -- col = 1,
                     },
                 },
             },
 
-            -- change folder arrow icons -------------------------------------------------
             renderer = {
                 highlight_git = true,
                 highlight_opened_files = "icon",
