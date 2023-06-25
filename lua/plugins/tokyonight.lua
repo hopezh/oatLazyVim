@@ -10,7 +10,7 @@ return {
 
         -- Enable this to disable setting the background color
         -- ! when enabled, need to provide background_colour="#000000" for nvim-notify
-        transparent = false,
+        transparent = true,
         terminal_colors = true, -- Configure the colors used when opening a `:terminal` in Neovim
 
         styles = {
@@ -19,7 +19,7 @@ return {
             comments = { italic = true },
             keywords = { italic = true, bold = true },
             functions = { italic = true, bold = true },
-            variables = {},
+            variables = { italic = true },
             -- Background styles. Can be "dark", "transparent" or "normal"
             sidebars = "transparent", -- style for sidebars, see below
             floats = "transparent", -- style for floajing windows

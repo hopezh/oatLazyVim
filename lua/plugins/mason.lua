@@ -5,6 +5,8 @@ return {
     opts = {
         ensure_installed = {
             "black",
+            "mypy",
+            "ruff",
             "pyright",
             "stylua",
             "shellcheck",

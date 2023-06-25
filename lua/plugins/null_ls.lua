@@ -13,6 +13,8 @@ return {
 
             sources = {
                 nls.builtins.formatting.black,
+                nls.builtins.diagnostics.mypy,
+                nls.builtins.diagnostics.ruff,
                 nls.builtins.formatting.fish_indent,
                 nls.builtins.diagnostics.fish,
                 nls.builtins.formatting.stylua,
