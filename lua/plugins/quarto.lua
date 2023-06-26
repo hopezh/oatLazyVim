@@ -3,8 +3,20 @@ return {
         "quarto-dev/quarto-nvim",
 
         dependencies = {
-            "jmbuhr/otter.nvim",
+            "hrsh7th/nvim-cmp",
             "neovim/nvim-lspconfig",
+            {
+                "jmbuhr/otter.nvim",
+                config = function()
+                    require("otter.config").setup({
+                        lsp = {
+                            hover = {
+                                border = require("misc.style").border,
+                            },
+                        },
+                    })
+                end,
+            },
         },
 
         keys = {
@@ -23,7 +35,7 @@ return {
 
                 lspFeatures = {
                     enabled = true,
-                    languages = { "r", "python", "julia", "bash" },
+                    languages = { "r", "python", "julia", "bash", "lua" },
                     chunks = "curly", -- 'curly' or 'all'
                     diagnostics = {
                         enabled = true,
