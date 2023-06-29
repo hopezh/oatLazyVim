@@ -7,7 +7,7 @@ return {
             layout_strategy = "horizontal",
             layout_config = {
                 prompt_position = "top",
-                preview_width = 100,
+                -- preview_width = 100, -- fix width of preview window
             },
             sorting_strategy = "ascending",
             winblend = 0,
