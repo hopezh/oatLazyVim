@@ -45,6 +45,13 @@ return {
                         enabled = true,
                     },
                 },
+
+                keymap = {
+                    hover = "K",
+                    definition = "gd",
+                    rename = "<leader>cr",
+                    references = "gr",
+                },
             })
         end,
     },
