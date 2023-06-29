@@ -11,7 +11,7 @@ vim.g.loaded_netrwPlugin = 1
 -- display ---------------------------------------------------------------------
 opt.colorcolumn = "80" -- highlight the 80th column
 opt.cursorline = true -- highlight cursorline
-opt.background = "dark"
+-- opt.background = "dark"
 opt.relativenumber = false
 opt.signcolumn = "yes:3" -- always show signcolumn, max width=3
 opt.wrap = true
@@ -46,3 +46,10 @@ vim.cmd("syntax on")
 -- specify file format ---------------------------------------------------------
 -- to remove the ^M character at the end of each line
 opt.fileformat = "unix"
+
+-- -- highlight color for headlines.nvim ------------------------------------------
+-- vim.cmd([[highlight Headline1 guibg=#1e2718]])
+-- -- vim.cmd([[highlight Headline1 guibg=#ffff00]])
+-- vim.cmd([[highlight Headline2 guibg=#21262d]])
+-- vim.cmd([[highlight CodeBlock guibg=#1c1c1c]])
+-- vim.cmd([[highlight Dash guibg=#D19A66 gui=bold]])
