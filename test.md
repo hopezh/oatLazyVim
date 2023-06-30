@@ -4,8 +4,7 @@
 
 ### Header 3
 
-
-```python
+```{python}
 print("hello")
 ```
 
