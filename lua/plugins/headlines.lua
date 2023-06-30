@@ -1,11 +1,13 @@
 return {
     "lukas-reineke/headlines.nvim",
 
+    ft = "markdown",
+    event = "VeryLazy",
+    lazy = false,
+
     dependencies = {
         "nvim-treesitter/nvim-treesitter",
     },
-
-    -- opts = {},
 
     -- opts = {
     --     markdown = {
@@ -45,15 +47,14 @@ return {
                         (block_quote (paragraph (inline (block_continuation) @quote)))
                     ]]
                 ),
+
                 -- headline_highlights = { "Headline" },
                 headline_highlights = {
                     "Headline1",
                     "Headline2",
                     "Headline3",
-                    "Headline4",
-                    "Headline5",
-                    "Headline6",
                 },
+
                 codeblock_highlight = "CodeBlock",
                 dash_highlight = "Dash",
                 dash_string = "-",
@@ -169,18 +170,19 @@ return {
             },
         })
 
-        -- vim.cmd([[highlight Headline1 guibg=#1e2718]])
-        -- vim.cmd([[highlight Headline2 guibg=#21262d]])
-        -- vim.cmd([[highlight CodeBlock guibg=#ffff00]])
-        -- vim.cmd([[highlight Dash guibg=#D19A66 gui=bold]])
+        vim.cmd([[highlight Headline1 guibg=#ff0000]])
+        vim.cmd([[highlight Headline2 guibg=#ff0000]])
+        vim.cmd([[highlight Headline3 guibg=#ff0000]])
+        vim.cmd([[highlight CodeBlock guibg=#ff0000]])
+        vim.cmd([[highlight Dash guibg=#ff0000 gui=bold]])
 
         -- vim.api.nvim_set_hl(0, "Headline1", { fg = "#cb7676", bg = "#402626", italic = false })
-        -- vim.api.nvim_set_hl(0, "Headline1", { fg = "#cb7676", bg = "#ffff00", italic = false })
+        -- vim.api.nvim_set_hl(0, "Headline1", { fg = "#ffffff", bg = "#000000", italic = true })
         -- vim.api.nvim_set_hl(0, "Headline2", { fg = "#c99076", bg = "#66493c", italic = false })
         -- vim.api.nvim_set_hl(0, "Headline3", { fg = "#80a665", bg = "#3d4f2f", italic = false })
         -- vim.api.nvim_set_hl(0, "Headline4", { fg = "#4c9a91", bg = "#224541", italic = false })
         -- vim.api.nvim_set_hl(0, "Headline5", { fg = "#6893bf", bg = "#2b3d4f", italic = false })
         -- vim.api.nvim_set_hl(0, "Headline6", { fg = "#d3869b", bg = "#6b454f", italic = false })
-        -- vim.api.nvim_set_hl(0, "CodeBlock", { bg = "#ffff00" })
+        -- vim.api.nvim_set_hl(0, "CodeBlock", { bg = "#ff0000" })
     end,
 }
