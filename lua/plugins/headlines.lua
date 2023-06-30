@@ -62,7 +62,7 @@ return {
                 fat_headlines = true,
                 -- fat_headline_upper_string = "▃",
                 -- fat_headline_lower_string = "🬂",
-                fat_headline_upper_string = "",
+                fat_headline_upper_string = "-",
                 fat_headline_lower_string = "",
             },
 
