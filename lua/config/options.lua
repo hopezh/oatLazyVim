@@ -53,3 +53,8 @@ opt.fileformat = "unix"
 -- vim.cmd([[highlight Headline2 guibg=#21262d]])
 -- vim.cmd([[highlight CodeBlock guibg=#1c1c1c]])
 -- vim.cmd([[highlight Dash guibg=#D19A66 gui=bold]])
+vim.cmd([[highlight Headline1 guibg=#FF0000]])
+vim.cmd([[highlight Headline2 guibg=#FF0000]])
+vim.cmd([[highlight Headline3 guibg=#FF0000]])
+vim.cmd([[highlight CodeBlock guibg=#474747]])
+vim.cmd([[highlight Dash guibg=#FF0000 gui=bold]])
