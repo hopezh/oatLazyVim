@@ -6,4 +6,4 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 Modified and customized by oatcracker.
 
-![image](https://github.com/hopezh/oatLazyVim/assets/23435810/81887655-9d28-49cc-9270-086ecce0c593)
+<img width="1798" alt="Screenshot 2023-07-01 at 9 02 56 PM" src="https://github.com/hopezh/oatLazyVim/assets/23435810/8d119973-3bc2-4d68-ae27-d5c2e70da241">
