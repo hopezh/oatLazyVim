@@ -40,10 +40,3 @@ vim.opt.viewoptions:remove("options")
 
 -- use the dark_flat color scheme ----------------------------------------------
 -- vim.cmd.colorscheme("dark_flat")
-
--- highlight color for headlines.nvim ------------------------------------------
--- vim.cmd([[highlight Headline1 guibg=#FF0000]])
--- vim.cmd([[highlight Headline2 guibg=#FF0000]])
--- vim.cmd([[highlight Headline3 guibg=#FF0000]])
--- vim.cmd([[highlight CodeBlock guibg=#FF0000]])
--- vim.cmd([[highlight Dash guibg=#FF0000 gui=bold]])
