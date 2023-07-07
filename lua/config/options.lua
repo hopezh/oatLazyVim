@@ -10,8 +10,6 @@ vim.g.loaded_netrwPlugin = 1
 
 -- display ---------------------------------------------------------------------
 opt.colorcolumn = "80" -- highlight the 80th column
-opt.cursorline = true -- highlight cursorline
--- opt.background = "dark"
 opt.relativenumber = false
 opt.signcolumn = "yes:3" -- always show signcolumn, max width=3
 opt.wrap = true
@@ -35,7 +33,7 @@ opt.foldmethod = "expr"
 opt.foldexpr = "nvim_treesitter#foldexpr()"
 
 -- stop undo file --------------------------------------------------------------
-opt.undofile = false
+opt.undofile = false -- stop unlimited undo to even changes made in previous session
 
 -- no swap file ----------------------------------------------------------------
 vim.cmd("set noswapfile")
