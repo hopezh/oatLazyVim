@@ -52,11 +52,9 @@ vim.cmd([[highlight Headline3 guibg=#353535]])
 vim.cmd([[highlight CodeBlock guibg=#303030]])
 vim.cmd([[highlight Dash guibg=#202020 gui=bold]])
 
--- blinking cursor -------------------------------------------------------------
--- opt.guicursor = "i-n-v-c-sm-ci-ve-r-cr-o:block,a:blinkon10"
-
 -- show cmd in statusline ------------------------------------------------------
 opt.showcmd = true
 
+-- blinking cursor -------------------------------------------------------------
 opt.guicursor =
     "n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175"
