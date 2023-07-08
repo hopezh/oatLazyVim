@@ -3,22 +3,22 @@ return {
 
     keys = {
         {
-            "<leader>ct",
+            "<leader>cj",
             "<CMD>TSJToggle<CR>",
             desc = "Toggle Treesiter Join",
         },
 
-        {
-            "<leader>cj",
-            "<CMD>TSJJoin<CR>",
-            desc = "Join code block into one line",
-        },
+        -- {
+        --     "<leader>cj",
+        --     "<CMD>TSJJoin<CR>",
+        --     desc = "Join code block into one line",
+        -- },
 
-        {
-            "<leader>cs",
-            "<CMD>TSJSplit<CR>",
-            desc = "Split into multiple lines",
-        },
+        -- {
+        --     "<leader>cs",
+        --     "<CMD>TSJSplit<CR>",
+        --     desc = "Split into multiple lines",
+        -- },
     },
 
     cmd = {
