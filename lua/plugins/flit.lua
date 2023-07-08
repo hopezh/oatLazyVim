@@ -3,8 +3,8 @@ return {
 
     config = function()
         require("flit").setup({
-            -- active in normal[n], operator[o],or visual[v] mode
-            labeled_modes = "nv",
+            -- normal[n], operator[o],or visual[v] mode
+            labeled_modes = "nv", -- activate in normal, & visual modes only
         })
     end,
 }
