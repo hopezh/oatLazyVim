@@ -9,11 +9,13 @@ return {
             servers = {
                 -- pyright will be automatically installed with mason and loaded with lspconfig
                 pyright = {},
-                marksman = {},
+                marksman = {
+                    filetypes = { "markdown", "quarto" },
+                },
             },
         },
 
-        -- add marksman support for markdown and quoarto files
+        -- -- add marksman support for markdown and quoarto files
         -- config = function()
         --     local lspconfig = require("lspconfig")
         --     local cmp_nvim_lsp = require("cmp_nvim_lsp")
