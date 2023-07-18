@@ -2,7 +2,7 @@ return {
     {
         "akinsho/toggleterm.nvim",
 
-        config = true,
+        -- config = true,
 
         cmd = "ToggleTerm",
 
@@ -16,7 +16,19 @@ return {
 
         opts = {
             open_mapping = [[<F3>]],
-            direction = "float", -- float/horizontal
+
+            -- size can be a number or function which is passed the current terminal
+            size = function(term)
+                if term.direction == "horizontal" then
+                    return 20
+                elseif term.direction == "vertical" then
+                    return vim.o.columns * 0.4
+                end
+            end,
+
+            -- direction = "float",
+            direction = "horizontal",
+            -- direction = "vertical",
             shade_filetypes = {},
             hide_numbers = true,
             insert_mappings = true,
