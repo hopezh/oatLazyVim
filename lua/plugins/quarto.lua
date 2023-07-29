@@ -35,7 +35,7 @@ return {
 
                 lspFeatures = {
                     enabled = true,
-                    languages = { "r", "python", "julia", "bash", "lua" },
+                    languages = { "r", "python", "julia", "bash", "lua", "html" },
                     chunks = "curly", -- 'curly' or 'all'
                     diagnostics = {
                         enabled = true,
