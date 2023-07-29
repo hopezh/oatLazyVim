@@ -11,10 +11,10 @@
 -- )
 
 -- change label hl bg & fg colors
-vim.api.nvim_set_hl(0, "LeapLabelPrimary", {
-    bg = "black",
-    fg = "yellow",
-})
+-- vim.api.nvim_set_hl(0, "LeapLabelPrimary", {
+--     bg = "black",
+--     fg = "yellow",
+-- })
 
 -- custum fold text ------------------------------------------------------------
 function _G.custom_fold_text()
