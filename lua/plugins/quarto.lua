@@ -12,26 +12,12 @@ return {
         },
 
         opts = {
-            debug = false,
-            closePreviewOnExit = true,
             lspFeatures = {
-                enabled = true,
                 languages = { "r", "python", "julia", "bash", "lua", "html" },
-                chunks = "curly", -- 'curly' or 'all'
-                diagnostics = {
-                    enabled = true,
-                    triggers = { "BufWritePost" },
-                },
-                completion = {
-                    enabled = true,
-                },
             },
             keymap = {
-                hover = "K",
-                definition = "gd",
                 -- rename = '<leader>lR', -- default of quarto-nvim
                 rename = "<leader>cr",
-                references = "gr",
             },
         },
 
@@ -47,7 +33,6 @@ return {
     -- config for dependincies -------------------------------------------------
     {
         "jmbuhr/otter.nvim",
-        lazy = false,
         opts = {},
     },
 
@@ -60,29 +45,6 @@ return {
             opts.sources = cmp.config.sources(vim.list_extend(opts.sources, { { name = "otter" } }))
         end,
     },
-
-    -- {
-    --     "neovim/nvim-lspconfig",
-    --
-    --     ---@class PluginLspOpts
-    --     opts = {
-    --         ---@type lspconfig.options
-    --         servers = {
-    --             -- these lsp will be automatically installed with mason and loaded with lspconfig
-    --             pyright = {},
-    --             r_language_server = {},
-    --             julials = {},
-    --             marksman = {
-    --                 -- also needs:
-    --                 -- $home/.config/marksman/config.toml :
-    --                 -- [core]
-    --                 -- markdown.file_extensions = ["md", "markdown", "qmd"]
-    --                 filetypes = { "markdown", "quarto" },
-    --                 root_dir = require("lspconfig.util").root_pattern(".git", ".marksman.toml", "_quarto.yml"),
-    --             },
-    --         },
-    --     },
-    -- },
 
     -- send code from python/r/qmd documets to a terminal or REPL
     -- like ipython, R, bash
