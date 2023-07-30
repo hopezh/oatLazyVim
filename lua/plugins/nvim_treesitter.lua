@@ -1,6 +1,8 @@
 return {
-    -- add more treesitter parsers
+
     "nvim-treesitter/nvim-treesitter",
+
+    -- add more treesitter parsers
     opts = {
         ensure_installed = {
             "bash",
@@ -16,6 +18,7 @@ return {
             "json",
             "java",
             "javascript",
+            "julia",
             "latex",
             "lua",
             "luadoc",
@@ -24,6 +27,7 @@ return {
             "norg",
             "org",
             "python",
+            "query",
             "r",
             "regex",
             "typescript",
