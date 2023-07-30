@@ -3,6 +3,7 @@ return {
         "quarto-dev/quarto-nvim",
 
         dev = false,
+
         ft = "quarto",
 
         dependencies = {
