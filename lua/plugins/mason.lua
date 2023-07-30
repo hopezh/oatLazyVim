@@ -5,13 +5,17 @@ return {
     opts = {
         ensure_installed = {
             "black",
+            "flake8",
+            "json-lsp",
+            "lua-language-server",
+            "marksman",
             "mypy",
-            "ruff",
             "pyright",
-            "stylua",
+            "ruff",
             "shellcheck",
             "shfmt",
-            "flake8",
+            "stylua",
+            "typescript-language-server",
         },
     },
 }
