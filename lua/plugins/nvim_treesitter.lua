@@ -31,6 +31,7 @@ return {
             "query",
             "r",
             "regex",
+            "tsx",
             "typescript",
             "vim",
             "vimdoc",
