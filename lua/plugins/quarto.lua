@@ -56,7 +56,11 @@ return {
         end,
     },
 
-    -- send code from qmd doc to terminal
+    -- send code from python/r/qmd documets to a terminal or REPL
+    -- like ipython, R, bash
     { "jpalardy/vim-slime" },
+
+    -- paste an image to markdown from the clipboard
+    -- :PasteImg,
     { "ekickx/clipboard-image.nvim" },
 }
