@@ -1,5 +1,6 @@
 return {
     "AntonVanAssche/md-headers.nvim",
+
     lazy = false,
 
     dependencies = {
