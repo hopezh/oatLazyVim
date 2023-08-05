@@ -46,10 +46,13 @@ vim.cmd("syntax on")
 opt.fileformat = "unix"
 
 -- highlight color for headlines.nvim ------------------------------------------
-vim.cmd([[highlight Headline1 guibg=#454545]])
-vim.cmd([[highlight Headline2 guibg=#404040]])
-vim.cmd([[highlight Headline3 guibg=#353535]])
-vim.cmd([[highlight CodeBlock guibg=#303030]])
+vim.cmd([[highlight Headline1 guibg=#c5c5c5 guifg=#000000]])
+vim.cmd([[highlight Headline2 guibg=#aeaeae guifg=#000000]])
+vim.cmd([[highlight Headline3 guibg=#979797 guifg=#000000]])
+vim.cmd([[highlight Headline4 guibg=#808080 guifg=#000000]])
+vim.cmd([[highlight Headline5 guibg=#696969 guifg=#000000]])
+vim.cmd([[highlight Headline6 guibg=#525252 guifg=#000000]])
+vim.cmd([[highlight CodeBlock guibg=#3b3b3b]])
 vim.cmd([[highlight Dash guibg=#202020 gui=bold]])
 
 -- show cmd in statusline ------------------------------------------------------
