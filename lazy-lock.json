@@ -60,7 +60,7 @@
   "toggleterm.nvim": { "branch": "main", "commit": "12cba0a1967b4f3f31903484dec72a6100dcf515" },
   "tokyonight.nvim": { "branch": "main", "commit": "1ee11019f8a81dac989ae1db1a013e3d582e2033" },
   "transparent.nvim": { "branch": "main", "commit": "4cf97fc0b1c4a88cf246b2f6facb735a536a558e" },
-  "treesj": { "branch": "main", "commit": "3891ddaee31787483ddef52b130dd357b6c95dcb" },
+  "treesj": { "branch": "main", "commit": "38a0d521ce1be574e5318998f417c76cad279e1c" },
   "trouble.nvim": { "branch": "main", "commit": "40aad004f53ae1d1ba91bcc5c29d59f07c5f01d3" },
   "typescript.nvim": { "branch": "main", "commit": "de304087e6e49981fde01af8ccc5b21e8519306f" },
   "vim-easy-align": { "branch": "master", "commit": "12dd6316974f71ce333e360c0260b4e1f81169c3" },
