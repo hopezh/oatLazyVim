@@ -9,19 +9,19 @@ jupyter: python3
 ---
 
 
-# Heading1
+# Heading 1
 
 
 
-## Heading2-1
+## Heading 1-1
 
 
 
-## Heading2-2
+## Heading 1-2
 
 
 
-### Heading3-1
+### Heading 1-2-1
 
 
 ```{python}
@@ -45,9 +45,9 @@ plt.show()
 This is perfect!
 
 
-### Heading3-2
+### Heading 1-2-2
 
-# Some latex math equations
+# Heading 2: Some latex math equations
 
 $$
 \begin{alignat}{1}
