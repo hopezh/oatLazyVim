@@ -11,6 +11,7 @@ return {
             "marksman",
             "mypy",
             "pyright",
+            "r-languageserver",
             "ruff",
             "shellcheck",
             "shfmt",
