@@ -8,8 +8,12 @@ return {
 
         dependencies = {
             "neovim/nvim-lspconfig",
-            "jmbuhr/otter.nvim",
             "hrsh7th/nvim-cmp",
+            {
+                "jmbuhr/otter.nvim",
+                -- dependencies = { "neovim/nvim-lspconfig" },
+                -- opts = {},
+            },
         },
 
         opts = {
@@ -17,8 +21,8 @@ return {
                 languages = { "r", "python", "julia", "bash", "lua", "html" },
             },
             keymap = {
-                -- rename = '<leader>lR', -- default of quarto-nvim
-                rename = "<leader>cr",
+                rename = "<leader>lR", -- default of quarto-nvim
+                -- rename = "<leader>cr",
             },
         },
 
@@ -44,6 +48,11 @@ return {
         opts = function(_, opts)
             local cmp = require("cmp")
             opts.sources = cmp.config.sources(vim.list_extend(opts.sources, { { name = "otter" } }))
+
+            -- link quarto and rmarkdown to markdown snippets
+            local luasnip = require("luasnip")
+            luasnip.filetype_extend("quarto", { "markdown" })
+            luasnip.filetype_extend("rmarkdown", { "markdown" })
         end,
     },
 
