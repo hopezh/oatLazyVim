@@ -57,6 +57,23 @@ return {
                     "Game of life...",
                 },
             },
+
+            -- keymap group for otter
+            ["<leader>o"] = {
+                name = "otter",
+                o = {
+                    "o# %%<cr>",
+                    "new code chunk below",
+                },
+                O = {
+                    "O# %%<cr>",
+                    "new code chunk above",
+                },
+                p = {
+                    "o```{python}<cr>```<esc>O",
+                    "python code chunk",
+                },
+            },
         },
     },
 
