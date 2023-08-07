@@ -46,6 +46,7 @@ return {
             ["z"] = { name = "+fold" },
 
             -- add keymap group and keybindings using <leader>
+            -- keymap group for oatkey
             ["<leader>z"] = {
                 name = "OatKey",
                 m = {
@@ -55,6 +56,23 @@ return {
                 g = {
                     "<cmd>CellularAutomaton game_of_life<CR>",
                     "Game of life...",
+                },
+            },
+
+            -- keymap group for otter
+            ["<leader>o"] = {
+                name = "otter",
+                o = {
+                    "o# %%<cr>",
+                    "new code chunk below",
+                },
+                O = {
+                    "O# %%<cr>",
+                    "new code chunk above",
+                },
+                p = {
+                    "o```{python}<cr>```<esc>O",
+                    "python code chunk",
                 },
             },
         },
