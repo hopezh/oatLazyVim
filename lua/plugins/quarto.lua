@@ -1,4 +1,10 @@
 return {
+
+    -- this taps into vim.ui.select and vim.ui.input
+    -- and in doing so currently breaks renaming in otter.nvim
+    -- so, dressing,nvim needs to be disabled
+    { "stevearc/dressing.nvim", enabled = false },
+
     {
         "quarto-dev/quarto-nvim",
 
