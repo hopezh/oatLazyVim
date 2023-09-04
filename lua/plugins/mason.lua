@@ -5,6 +5,7 @@ return {
     opts = {
         ensure_installed = {
             "black",
+            "eslint-lsp",
             "flake8",
             "json-lsp",
             "lua-language-server",
