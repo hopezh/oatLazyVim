@@ -8,8 +8,8 @@ return {
             servers = {
                 -- these lsp will be automatically installed with mason and loaded with lspconfig
                 pyright = {},
-                r_language_server = {},
-                julials = {},
+                -- r_language_server = {},
+                -- julials = {},
                 marksman = {
                     -- also needs:
                     -- $home/.config/marksman/config.toml :
