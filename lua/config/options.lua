@@ -21,6 +21,7 @@ opt.showtabline = 2
 opt.smarttab = true
 opt.softtabstop = 4
 opt.tabstop = 4
+opt.list = false
 
 -- search ----------------------------------------------------------------------
 opt.hlsearch = true
