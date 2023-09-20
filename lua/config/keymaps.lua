@@ -17,9 +17,15 @@ vim.keymap.set("n", "<leader>h", ":noh<CR>")
 vim.cmd([[nmap ga <Plug>(EasyAlign)]])
 vim.cmd([[xmap ga <Plug>(EasyAlign)]])
 
--- inlay-hints -----------------------------------------------------------------
+-- inlay-hints (for neovim >= 0.10) --------------------------------------------
+-- stylua: ignore
 if vim.lsp.inlay_hint then
-    vim.keymap.set("n", "<leader>uh", function()
-        vim.lsp.inlay_hint(0, nil)
-    end, { desc = "Show inlay hints" })
+    vim.keymap.set(
+        "n",
+        "<leader>uh",
+        function()
+            vim.lsp.inlay_hint(0, nil)
+        end,
+        { desc = "Show inlay hints" }
+    )
 end
