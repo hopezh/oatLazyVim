@@ -16,3 +16,10 @@ vim.keymap.set("n", "<leader>h", ":noh<CR>")
 -- vim-easy-align --------------------------------------------------------------
 vim.cmd([[nmap ga <Plug>(EasyAlign)]])
 vim.cmd([[xmap ga <Plug>(EasyAlign)]])
+
+-- inlay-hints -----------------------------------------------------------------
+if vim.lsp.inlay_hint then
+    vim.keymap.set("n", "<leader>uh", function()
+        vim.lsp.inlay_hint(0, nil)
+    end, { desc = "Show inlay hints" })
+end
