@@ -18,7 +18,7 @@ return {
     opts = {
         merge_keywords = true,
         keywords = {
-            oat = { icon = "", color = "#ffa500" },
+            oat = { icon = "", color = "#505050" },
         },
     },
 }
