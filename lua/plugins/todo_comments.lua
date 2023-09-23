@@ -14,7 +14,7 @@ return {
         },
     },
 
-    -- oat: add an "oat" comment keyword
+    -- oat: add an "oat" comment keyword ---------------------------------------
     opts = {
         merge_keywords = true,
         keywords = {
