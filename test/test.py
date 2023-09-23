@@ -1,5 +1,6 @@
-# TODO: aaa
+# oat: aaa ---------------------------------------------------------------------
 class Person:
+    # TODO:  bbb
     def __init__(self, name, age):
         self.name = name
         self.age = age
@@ -9,8 +10,8 @@ class Person:
         print("Hello my name is " + self.name)
 
 
-# NOTE: bbb
+# oat: bbb ---------------------------------------------------------------------
 p1 = Person("John", 36)
 p1.myfunc()
 
-# WARN: ddd
+# oat: ddd ---------------------------------------------------------------------
