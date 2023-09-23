@@ -5,9 +5,9 @@ return {
         -- -- method 1: use "opts{}" to change some options
         -- opts = {
         --     -- char = "│",
-        --     char = "▏", -- oat: indent symbol
+        --     char = "▏", -- my indent symbol
         --
-        --     show_current_context = true, -- oat: highlight the context
+        --     show_current_context = true, -- highlight the context
         --     show_current_context_start = true,
         -- },
 
