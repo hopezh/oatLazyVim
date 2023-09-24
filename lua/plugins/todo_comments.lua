@@ -2,6 +2,11 @@ return {
     "folke/todo-comments.nvim",
 
     keys = {
+        -- {
+        --     "<leader>xO",
+        --     "<cmd>TodoLocList keywords=oat<cr>",
+        --     desc = "show oat in this project",
+        -- },
         {
             "<leader>xo",
             "<cmd>TodoTrouble keywords=oat<cr>",
