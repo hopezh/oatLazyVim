@@ -3,4 +3,5 @@ return {
     { "folke/twilight.nvim", enabled = false },
     { "ggandor/leap.nvim", enabled = false },
     { "ggandor/flit.nvim", enabled = false },
+    { "stevearc/dressing.nvim", enabled = false },
 }
