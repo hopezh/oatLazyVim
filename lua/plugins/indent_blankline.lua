@@ -14,7 +14,7 @@ return {
         -- method 2: use "require("pluinName").setup({})" to change some options
         config = function()
             vim.opt.termguicolors = true
-            vim.cmd([[highlight IndentBlanklineIndent1 guibg=#232323 gui=nocombine]])
+            vim.cmd([[highlight IndentBlanklineIndent1 guibg=#242424 gui=nocombine]])
             -- vim.cmd([[highlight IndentBlanklineIndent2 guibg=#303030 gui=nocombine]])
 
             require("indent_blankline").setup({
