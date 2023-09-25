@@ -9,6 +9,7 @@ vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 -- display ---------------------------------------------------------------------
+opt.background = "dark"
 opt.colorcolumn = "80" -- highlight the 80th column, nil when virt-column.nvim is used
 opt.relativenumber = false
 opt.signcolumn = "yes:3" -- always show signcolumn, max width=3
@@ -65,3 +66,25 @@ opt.guicursor =
 
 -- set the color of virt-column symbol -----------------------------------------
 -- vim.cmd([[highlight VirtColumn guifg=#00FF00]])
+
+-- TEST: toggle btw dark and light modes ---------------------------------------
+vim.api.nvim_create_user_command("ToggleTheme", function(input)
+    if vim.opt.background == "dark" then
+        vim.opt.background = "light"
+    else
+        vim.opt.background = "dark"
+    end
+end, {})
+
+vim.api.nvim_create_user_command("ToggleTheme", function(input)
+    if vim.opt.background == "dark" then
+        vim.opt.background = "light"
+        vim.cmd("colorscheme tokyonight-day")
+    else
+        vim.opt.background = "dark"
+        vim.cmd("colorscheme tokyonight-night")
+    end
+end, {})
+
+-- also define the keymap
+vim.keymap.set("n", "<leader>ut", vim.cmd.ToggleTheme, { desc = "Toggle theme" })
