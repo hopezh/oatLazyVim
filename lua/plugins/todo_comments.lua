@@ -13,7 +13,7 @@ return {
             desc = "show oat in Trouble",
         },
         {
-            "<leader>so",
+            "<leader>to",
             "<cmd>TodoTelescope keywords=oat<cr>",
             desc = "show oat in Telescope",
         },
