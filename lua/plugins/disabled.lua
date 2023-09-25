@@ -5,5 +5,5 @@ return {
     { "ggandor/flit.nvim", enabled = false },
     { "stevearc/dressing.nvim", enabled = false },
     { "sekke276/dark_flat.nvim", enabled = false },
-    { "olimorris/onedarkpro.nvim", enabled = false },
+    -- { "olimorris/onedarkpro.nvim", enabled = false },
 }
