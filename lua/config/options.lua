@@ -68,13 +68,13 @@ opt.guicursor =
 -- vim.cmd([[highlight VirtColumn guifg=#00FF00]])
 
 -- TEST: toggle btw dark and light modes ---------------------------------------
-vim.api.nvim_create_user_command("ToggleTheme", function(input)
-    if vim.opt.background == "dark" then
-        vim.opt.background = "light"
-    else
-        vim.opt.background = "dark"
-    end
-end, {})
+-- vim.api.nvim_create_user_command("ToggleTheme", function(input)
+--     if vim.opt.background == "dark" then
+--         vim.opt.background = "light"
+--     else
+--         vim.opt.background = "dark"
+--     end
+-- end, {})
 
 vim.api.nvim_create_user_command("ToggleTheme", function(input)
     if vim.opt.background == "dark" then
