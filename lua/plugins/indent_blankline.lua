@@ -3,7 +3,7 @@ return {
         "lukas-reineke/indent-blankline.nvim",
         main = "ibl", -- migrate to v3
 
-        -- -- method 1: use "opts{}" to change some options
+        -- method 1: use "opts{}" to change some options
         opts = {
             -- char = "│",
             char = "▏", -- my indent symbol
