@@ -1,5 +1,6 @@
 return {
-    "jose-elias-alvarez/null-ls.nvim",
+    -- "jose-elias-alvarez/null-ls.nvim",
+    "nvimtools/none-ls.nvim", -- after null-ls.nvim was shelfted
 
     event = { "BufReadPre", "BufNewFile" },
 
