@@ -13,7 +13,7 @@ return {
             servers = {
                 lua_ls = {
                     settings = {
-                        lua = {
+                        Lua = {
                             workspace = { checkThirdparty = false },
                             telemetry = { enable = false },
                             hint = { enable = true },
