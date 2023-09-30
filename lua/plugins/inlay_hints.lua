@@ -16,7 +16,11 @@ return {
                         Lua = {
                             workspace = { checkThirdparty = false },
                             telemetry = { enable = false },
-                            hint = { enable = true },
+                            hint = {
+                                enable = true,
+                                arrayIndex = "Enable",
+                                setType = true,
+                            },
                         },
                     },
                 },
