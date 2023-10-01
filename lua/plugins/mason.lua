@@ -5,8 +5,10 @@ return {
     opts = {
         ensure_installed = {
             "black",
+            "css-lsp",
             "eslint-lsp",
             "flake8",
+            "html-lsp",
             "json-lsp",
             "lua-language-server",
             "marksman",
@@ -17,6 +19,7 @@ return {
             "shellcheck",
             "shfmt",
             "stylua",
+            "tailwindcss-language-server",
             "typescript-language-server",
         },
     },
