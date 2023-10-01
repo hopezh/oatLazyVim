@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
-from dash import Dash, dcc, html, dash_table, Input, Output, State, callback_context
 import dash_bootstrap_components as dbc
-import plotly.graph_objects as go
+import numpy as np
 import pandas as pd
+import plotly.graph_objects as go
+from dash import (Dash, Input, Output, State, callback_context, dash_table,
+                  dcc, html)
 
 app = Dash(
     __name__,

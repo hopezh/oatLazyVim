@@ -12,8 +12,8 @@
 #
 # fig.show()
 
-from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
+from dash import Dash, Input, Output, dcc, html
 
 app = Dash(__name__)
 
