@@ -9,6 +9,7 @@ return {
             "eslint-lsp",
             "flake8",
             "html-lsp",
+            "isort",
             "json-lsp",
             "lua-language-server",
             "marksman",
