@@ -53,6 +53,7 @@
   "persistence.nvim": { "branch": "main", "commit": "4b8051c01f696d8849a5cb8afa9767be8db16e40" },
   "plenary.nvim": { "branch": "master", "commit": "9ce85b0f7dcfe5358c0be937ad23e456907d410b" },
   "pomodoro.nvim": { "branch": "main", "commit": "8fa4b98f25fe6ff12a452bbbeab1da7c07224fb3" },
+  "pretty-fold.nvim": { "branch": "master", "commit": "a7d8b424abe0eedf50116c460fbe6dfd5783b1d5" },
   "quarto-nvim": { "branch": "main", "commit": "b349b7e54f5f5543b6104bfbad0e7d09d4f7c564" },
   "rainbow_csv": { "branch": "master", "commit": "dc0534fefc68f06d1d2c379814a9cae162fb1987" },
   "symbols-outline.nvim": { "branch": "master", "commit": "512791925d57a61c545bc303356e8a8f7869763c" },
