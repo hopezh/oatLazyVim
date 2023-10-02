@@ -16,19 +16,19 @@
 --     fg = "yellow",
 -- })
 
--- custum fold text ------------------------------------------------------------
-function _G.custom_fold_text()
-    local line = vim.fn.getline(vim.v.foldstart)
-    local line_count = vim.v.foldend - vim.v.foldstart + 1
-    -- return " ⚡ " .. line .. ": " .. line_count .. " lines"
-    -- return "  " .. line .. ": " .. line_count .. " lines"
-    return "" .. line .. "...... " .. line_count .. " lines"
-    -- return " >> " .. line .. ": " .. line_count .. " lines"
-end
-
-vim.opt.foldtext = "v:lua.custom_fold_text()"
-vim.opt.fillchars = { eob = "-", fold = " " }
-vim.opt.viewoptions:remove("options")
+-- -- custum fold text ------------------------------------------------------------
+-- function _G.custom_fold_text()
+--     local line = vim.fn.getline(vim.v.foldstart)
+--     local line_count = vim.v.foldend - vim.v.foldstart + 1
+--     -- return " ⚡ " .. line .. ": " .. line_count .. " lines"
+--     -- return "  " .. line .. ": " .. line_count .. " lines"
+--     return "" .. line .. "...... " .. line_count .. " lines"
+--     -- return " >> " .. line .. ": " .. line_count .. " lines"
+-- end
+--
+-- vim.opt.foldtext = "v:lua.custom_fold_text()"
+-- vim.opt.fillchars = { eob = "-", fold = " " }
+-- vim.opt.viewoptions:remove("options")
 
 -- specify cursor line number color --------------------------------------------
 -- this will override relevant settings in tokynight
