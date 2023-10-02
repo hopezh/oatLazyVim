@@ -1,17 +1,37 @@
 return {
     { -- indent-blankline -------------------------------------------------------
         "lukas-reineke/indent-blankline.nvim",
-        main = "ibl", -- migrate to v3
+        main = "ibl", -- since v3
+
+        -- since v3
+        config = function()
+            local highlight = {
+                "CursorColumn",
+                "Whitespace",
+            }
+
+            require("ibl").setup({
+                indent = {
+                    highlight = highlight,
+                    char = "",
+                },
+                whitespace = {
+                    highlight = highlight,
+                    remove_blankline_trail = false,
+                },
+                scope = { enabled = false },
+            })
+        end,
 
         -- method 1: use "opts{}" to change some options
-        opts = {
-            -- char = "│",
-            char = "▏", -- my indent symbol
-
-            show_current_context = true, -- highlight the context
-            show_current_context_start = false,
-            show_trailing_blankline_indent = false,
-        },
+        -- opts = {
+        --     -- char = "│",
+        --     char = "▏", -- my indent symbol
+        --
+        --     show_current_context = true, -- highlight the context
+        --     show_current_context_start = false,
+        --     show_trailing_blankline_indent = false,
+        -- },
 
         -- method 2: use "require("pluinName").setup({})" to change some options
         -- config = function()
