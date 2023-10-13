@@ -7,4 +7,5 @@ return {
     { "sekke276/dark_flat.nvim", enabled = false },
     { "ray-x/lsp_signature.nvim", enabled = false },
     -- { "olimorris/onedarkpro.nvim", enabled = false },
+    { "goolord/alpha-nvim", enabled = false },
 }
