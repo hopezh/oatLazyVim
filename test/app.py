@@ -3,8 +3,16 @@ import dash_bootstrap_components as dbc
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
-from dash import (Dash, Input, Output, State, callback_context, dash_table,
-                  dcc, html)
+from dash import (
+    Dash,
+    Input,
+    Output,
+    State,
+    callback_context,
+    dash_table,
+    dcc,
+    html,
+)
 
 app = Dash(
     __name__,
