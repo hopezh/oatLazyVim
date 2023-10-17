@@ -18,6 +18,12 @@ return {
                     filetypes = { "markdown", "quarto" },
                     root_dir = require("lspconfig.util").root_pattern(".git", ".marksman.toml", "_quarto.yml"),
                 },
+                mojo = {
+                    cmd = { "mojo-lsp-server" },
+                    filetype = { "mojo" },
+                    root_dir = require("lspconfig.util").find_git_ancestor,
+                    single_file_support = true,
+                },
             },
         },
     },
