@@ -14,7 +14,7 @@ end
 -- stylua: ignore
 vim.keymap.set(
     "n",
-    "<leader>ut",
+    "<leader>tt",
     toggle_theme,
     { desc = "Toggle dark/light theme" }
 )
