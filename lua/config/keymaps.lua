@@ -29,3 +29,14 @@ if vim.lsp.inlay_hint then
         { desc = "Toggle inlay hints" }
     )
 end
+
+-- -- toggle transparency of tokyonight
+-- -- stylua: ignore
+-- vim.keymap.set(
+--     "n",
+--     "<leader>uo",
+--     function()
+--         vim.g.tokyonight_transparent(0, nil)
+--     end,
+--     { desc = "Toggle opacity" }
+-- )
