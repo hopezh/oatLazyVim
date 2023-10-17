@@ -40,3 +40,12 @@ end
 --     end,
 --     { desc = "Toggle opacity" }
 -- )
+
+-- open zoxide in telescope extension
+-- stylua: ignore
+vim.keymap.set(
+    "n",
+    "<leader>Z",
+    "<cmd>Zi<CR>",
+    { desc = "Open zoxide" }
+)
