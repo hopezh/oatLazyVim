@@ -61,7 +61,6 @@
   "persistence.nvim": { "branch": "main", "commit": "ad538bfd5336f1335cdb6fd4e0b0eebfa6e12f32" },
   "plenary.nvim": { "branch": "master", "commit": "50012918b2fc8357b87cff2a7f7f0446e47da174" },
   "pomodoro.nvim": { "branch": "main", "commit": "8fa4b98f25fe6ff12a452bbbeab1da7c07224fb3" },
-  "pretty-fold.nvim": { "branch": "master", "commit": "a7d8b424abe0eedf50116c460fbe6dfd5783b1d5" },
   "promise-async": { "branch": "main", "commit": "e94f35161b8c5d4a4ca3b6ff93dd073eb9214c0e" },
   "quarto-nvim": { "branch": "main", "commit": "14a80ffab90567e360eb97b19039c4c16913ad79" },
   "rainbow_csv": { "branch": "master", "commit": "6955d13a65e0161e8dad488b6045441d527d62ec" },

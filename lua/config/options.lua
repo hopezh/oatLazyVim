@@ -31,8 +31,8 @@ opt.incsearch = true
 -- treesitter-based folding ----------------------------------------------------
 -- opt.foldlevel = 20
 -- opt.foldcolumn = "3"
-opt.foldmethod = "expr"
-opt.foldexpr = "nvim_treesitter#foldexpr()"
+-- opt.foldmethod = "expr" -- disabled for nvim-ufo using treesitter as provider
+-- opt.foldexpr = "nvim_treesitter#foldexpr()" -- disabled for nvim-ufo using treesitter as provider
 
 -- for nvim-ufo
 opt.foldcolumn = "1"
