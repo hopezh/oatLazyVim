@@ -8,5 +8,5 @@ return {
     { "ray-x/lsp_signature.nvim", enabled = false },
     -- { "olimorris/onedarkpro.nvim", enabled = false },
     { "goolord/alpha-nvim", enabled = false },
-    { "anuvyklack/pretty-fold.nvim", enabled = false },
+    { "kevinhwang91/nvim-ufo", enabled = false },
 }

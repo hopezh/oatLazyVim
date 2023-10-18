@@ -29,16 +29,16 @@ opt.hlsearch = true
 opt.incsearch = true
 
 -- treesitter-based folding ----------------------------------------------------
--- opt.foldlevel = 20
--- opt.foldcolumn = "3"
--- opt.foldmethod = "expr" -- disabled for nvim-ufo using treesitter as provider
--- opt.foldexpr = "nvim_treesitter#foldexpr()" -- disabled for nvim-ufo using treesitter as provider
+opt.foldlevel = 20
+opt.foldcolumn = "3"
+opt.foldmethod = "expr" -- disabled for nvim-ufo using treesitter as provider
+opt.foldexpr = "nvim_treesitter#foldexpr()" -- disabled for nvim-ufo using treesitter as provider
 
--- for nvim-ufo
-opt.foldcolumn = "1"
-opt.foldlevel = 99
-opt.foldlevelstart = 99
-opt.foldenable = true
+-- -- for nvim-ufo
+-- opt.foldcolumn = "1"
+-- opt.foldlevel = 99
+-- opt.foldlevelstart = 99
+-- opt.foldenable = true
 
 -- stop undo file --------------------------------------------------------------
 opt.undofile = false -- stop unlimited undo to even changes made in previous session
