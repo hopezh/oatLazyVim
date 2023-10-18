@@ -39,9 +39,6 @@ opt.foldcolumn = "1"
 opt.foldlevel = 99
 opt.foldlevelstart = 99
 opt.foldenable = true
--- Using ufo provider need remap `zR` and `zM`. If Neovim is 0.6.1, remap yourself
-vim.keymap.set("n", "zR", require("ufo").openAllFolds)
-vim.keymap.set("n", "zM", require("ufo").closeAllFolds)
 
 -- stop undo file --------------------------------------------------------------
 opt.undofile = false -- stop unlimited undo to even changes made in previous session
