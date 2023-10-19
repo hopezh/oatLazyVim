@@ -18,3 +18,14 @@ vim.keymap.set(
     toggle_theme,
     { desc = "Toggle dark/light theme" }
 )
+
+-- -- toggle transparency of tokyonight -------------------------------------------
+-- -- stylua: ignore
+-- vim.keymap.set(
+--     "n",
+--     "<leader>uo",
+--     function()
+--         vim.g.tokyonight_transparent(0, nil)
+--     end,
+--     { desc = "Toggle opacity" }
+-- )
