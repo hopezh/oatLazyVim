@@ -30,25 +30,14 @@ if vim.lsp.inlay_hint then
     )
 end
 
--- -- toggle transparency of tokyonight
+-- -- open zoxide in telescope extension ------------------------------------------
 -- -- stylua: ignore
 -- vim.keymap.set(
 --     "n",
---     "<leader>uo",
---     function()
---         vim.g.tokyonight_transparent(0, nil)
---     end,
---     { desc = "Toggle opacity" }
+--     "<leader>Z",
+--     "<cmd>Zi<CR>",
+--     { desc = "Open zoxide" }
 -- )
-
--- open zoxide in telescope extension
--- stylua: ignore
-vim.keymap.set(
-    "n",
-    "<leader>Z",
-    "<cmd>Zi<CR>",
-    { desc = "Open zoxide" }
-)
 
 -- -- Using ufo provider need remap `zR` and `zM`. If Neovim is 0.6.1, remap yourself
 -- vim.keymap.set("n", "zR", require("ufo").openAllFolds)
