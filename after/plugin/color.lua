@@ -21,11 +21,13 @@ vim.keymap.set(
 
 -- -- toggle transparency of tokyonight -------------------------------------------
 -- -- stylua: ignore
+-- local function toogle_opacity()
+--     vim.g.tokyonight_transparent = true
+-- end
+-- -- stylua: ignore
 -- vim.keymap.set(
 --     "n",
---     "<leader>uo",
---     function()
---         vim.g.tokyonight_transparent(0, nil)
---     end,
+--     "<leader>tp",
+--     toogle_opacity,
 --     { desc = "Toggle opacity" }
 -- )
