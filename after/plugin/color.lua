@@ -31,3 +31,13 @@ vim.keymap.set(
 --     toogle_opacity,
 --     { desc = "Toggle opacity" }
 -- )
+
+-- -- set cursorline as underline
+-- -- stylua: ignore
+-- vim.api.nvim_set_hl(
+--     0,
+--     "CursorLine",
+--     { underline = true })
+
+vim.api.nvim_set_hl(0, "CursorLineNr", { bg = "red" })
+vim.api.nvim_set_hl(0, "CursorLine", { bg = "red" })
