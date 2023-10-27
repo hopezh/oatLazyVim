@@ -17,7 +17,7 @@ vim.keymap.set("n", "<leader>h", ":noh<CR>")
 vim.cmd([[nmap ga <Plug>(EasyAlign)]])
 vim.cmd([[xmap ga <Plug>(EasyAlign)]])
 
--- inlay-hints (for neovim >= 0.10) --------------------------------------------
+-- toggle inlay-hints (for neovim >= 0.10) -------------------------------------
 -- stylua: ignore
 if vim.lsp.inlay_hint then
     vim.keymap.set(
@@ -29,16 +29,3 @@ if vim.lsp.inlay_hint then
         { desc = "Toggle inlay hints" }
     )
 end
-
--- -- open zoxide in telescope extension ------------------------------------------
--- -- stylua: ignore
--- vim.keymap.set(
---     "n",
---     "<leader>Z",
---     "<cmd>Zi<CR>",
---     { desc = "Open zoxide" }
--- )
-
--- -- Using ufo provider need remap `zR` and `zM`. If Neovim is 0.6.1, remap yourself
--- vim.keymap.set("n", "zR", require("ufo").openAllFolds)
--- vim.keymap.set("n", "zM", require("ufo").closeAllFolds)
