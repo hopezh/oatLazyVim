@@ -22,10 +22,11 @@ vim.keymap.set(
 -- set cursorline as underline -------------------------------------------------
 -- vim.api.nvim_set_hl(0, "CursorLine", { underline = true })
 
--- change cursolrline & cursorline number bg color -----------------------------
+-- change bg color of cursolrline, cursorline number, & cursorcolumn -----------
 -- vim.api.nvim_set_hl(0, "CursorLineNr", { bg = "red" })
 -- vim.api.nvim_set_hl(0, "CursorLine", { bg = "red" })
--- vim.api.nvim_set_hl(0, "CursorLineNr", { bg = "#292e42" })
--- vim.api.nvim_set_hl(0, "CursorLine", { bg = "#292e42" })
-vim.api.nvim_set_hl(0, "CursorLineNr", { bg = "#252525" })
-vim.api.nvim_set_hl(0, "CursorLine", { bg = "#252525" })
+-- vim.api.nvim_set_hl(0, "CursorLineNr", { bg = "#292e42" }) -- tkyonight default
+-- vim.api.nvim_set_hl(0, "CursorLine", { bg = "#292e42" }) -- tkyonight default
+vim.api.nvim_set_hl(0, "CursorLineNr", { bg = "#272727" })
+vim.api.nvim_set_hl(0, "CursorLine", { bg = "#272727" })
+vim.api.nvim_set_hl(0, "CursorColumn", { bg = "#252525" })
