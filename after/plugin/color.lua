@@ -19,26 +19,10 @@ vim.keymap.set(
     { desc = "Toggle dark/light theme" }
 )
 
--- -- toggle transparency of tokyonight -------------------------------------------
--- -- stylua: ignore
--- local function toogle_opacity()
---     vim.g.tokyonight_transparent = true
--- end
--- -- stylua: ignore
--- vim.keymap.set(
---     "n",
---     "<leader>tp",
---     toogle_opacity,
---     { desc = "Toggle opacity" }
--- )
+-- set cursorline as underline -------------------------------------------------
+-- vim.api.nvim_set_hl(0, "CursorLine", { underline = true })
 
--- -- set cursorline as underline
--- -- stylua: ignore
--- vim.api.nvim_set_hl(
---     0,
---     "CursorLine",
---     { underline = true })
-
+-- change cursolrline & cursorline number bg color -----------------------------
 -- vim.api.nvim_set_hl(0, "CursorLineNr", { bg = "red" })
 -- vim.api.nvim_set_hl(0, "CursorLine", { bg = "red" })
 -- vim.api.nvim_set_hl(0, "CursorLineNr", { bg = "#292e42" })
