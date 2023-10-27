@@ -39,5 +39,9 @@ vim.keymap.set(
 --     "CursorLine",
 --     { underline = true })
 
-vim.api.nvim_set_hl(0, "CursorLineNr", { bg = "red" })
-vim.api.nvim_set_hl(0, "CursorLine", { bg = "red" })
+-- vim.api.nvim_set_hl(0, "CursorLineNr", { bg = "red" })
+-- vim.api.nvim_set_hl(0, "CursorLine", { bg = "red" })
+-- vim.api.nvim_set_hl(0, "CursorLineNr", { bg = "#292e42" })
+-- vim.api.nvim_set_hl(0, "CursorLine", { bg = "#292e42" })
+vim.api.nvim_set_hl(0, "CursorLineNr", { bg = "#252525" })
+vim.api.nvim_set_hl(0, "CursorLine", { bg = "#252525" })
