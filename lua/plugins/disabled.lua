@@ -10,4 +10,5 @@ return {
     { "goolord/alpha-nvim", enabled = false },
     { "kevinhwang91/nvim-ufo", enabled = false },
     { "yamatsum/nvim-cursorline", enabled = false },
+    { "RRethy/vim-illuminate", enabled = false },
 }
