@@ -1,9 +1,10 @@
 return {
 
+    -- -------------------------------------------------------------------------
     -- this taps into vim.ui.select and vim.ui.input
     -- and in doing so currently breaks renaming in otter.nvim
     -- so, dressing,nvim needs to be disabled
-    -- { "stevearc/dressing.nvim", enabled = false },
+    { "stevearc/dressing.nvim", enabled = false },
 
     {
         "quarto-dev/quarto-nvim",
@@ -16,6 +17,7 @@ return {
             "neovim/nvim-lspconfig",
             "hrsh7th/nvim-cmp",
             "jmbuhr/otter.nvim",
+            "nvim-treesitter/nvim-treesitter",
         },
 
         keys = {
@@ -53,10 +55,14 @@ return {
         },
     },
 
-    -- config of dependencies
+    -- config of dependencies --------------------------------------------------
     {
         "jmbuhr/otter.nvim",
-        opts = {},
+        opts = {
+            buffers = {
+                set_filetype = true,
+            },
+        },
     },
 
     {

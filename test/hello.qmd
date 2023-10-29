@@ -12,14 +12,10 @@ jupyter: python3
 # Heading 1
 
 
-
 ## Heading 1-1
 
 
-
 ## Heading 1-2
-
-
 
 ### Heading 1-2-1
 
