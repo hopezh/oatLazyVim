@@ -11,4 +11,5 @@ return {
     { "kevinhwang91/nvim-ufo", enabled = false },
     { "yamatsum/nvim-cursorline", enabled = false },
     { "RRethy/vim-illuminate", enabled = false },
+    -- { "anuvyklack/pretty-fold.nvim", eanabled = false },
 }

@@ -1,5 +1,6 @@
 return {
     "anuvyklack/pretty-fold.nvim",
+    -- enabled = false,
 
     config = function()
         require("pretty-fold").setup({
@@ -18,7 +19,7 @@ return {
                     end,
                 },
             },
-            -- fill_char = '•',
+            -- fill_char = "•",
             fill_char = " ",
 
             remove_fold_markers = true,
