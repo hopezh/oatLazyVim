@@ -6,10 +6,10 @@ return {
     { "stevearc/dressing.nvim", enabled = false },
     { "sekke276/dark_flat.nvim", enabled = false },
     { "ray-x/lsp_signature.nvim", enabled = false },
-    -- { "olimorris/onedarkpro.nvim", enabled = false },
     { "goolord/alpha-nvim", enabled = false },
-    { "kevinhwang91/nvim-ufo", enabled = false },
     { "yamatsum/nvim-cursorline", enabled = false },
     { "RRethy/vim-illuminate", enabled = false },
+    -- { "olimorris/onedarkpro.nvim", enabled = false },
     -- { "anuvyklack/pretty-fold.nvim", eanabled = false },
+    -- { "kevinhwang91/nvim-ufo", enabled = false },
 }

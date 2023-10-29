@@ -25,7 +25,6 @@
 --     return "" .. line .. "...... " .. line_count .. " lines"
 --     -- return " >> " .. line .. ": " .. line_count .. " lines"
 -- end
---
 -- vim.opt.foldtext = "v:lua.custom_fold_text()"
 -- vim.opt.fillchars = { eob = "-", fold = " " }
 -- vim.opt.viewoptions:remove("options")
