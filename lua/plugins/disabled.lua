@@ -12,4 +12,5 @@ return {
     -- { "olimorris/onedarkpro.nvim", enabled = false },
     -- { "anuvyklack/pretty-fold.nvim", eanabled = false },
     -- { "kevinhwang91/nvim-ufo", enabled = false },
+    { "nvimdev/lspsaga.nvim", enabled = false },
 }
