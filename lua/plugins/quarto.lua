@@ -96,12 +96,15 @@ return {
     {
         "hrsh7th/nvim-cmp",
 
-        dependencies = { "jmbuhr/otter.nvim" },
+        dependencies = { "jmbuhr/otter.nvim", config = true },
 
+        -- stylua: ignore
         ---@param opts cmp.ConfigSchema
         opts = function(_, opts)
             local cmp = require("cmp")
-            opts.sources = cmp.config.sources(vim.list_extend(opts.sources, { { name = "otter" } }))
+            opts.sources = cmp.config.sources(
+                vim.list_extend(opts.sources, { { name = "otter" } })
+            )
 
             -- link quarto and rmarkdown to markdown snippets
             local luasnip = require("luasnip")
