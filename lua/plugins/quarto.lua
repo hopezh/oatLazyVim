@@ -99,8 +99,8 @@ return {
         dependencies = { "jmbuhr/otter.nvim", config = true },
 
         -- stylua: ignore
-        ---@param opts cmp.ConfigSchema
         opts = function(_, opts)
+            ---@param opts cmp.ConfigSchema
             local cmp = require("cmp")
             opts.sources = cmp.config.sources(
                 vim.list_extend(opts.sources, { { name = "otter" } })
