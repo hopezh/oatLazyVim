@@ -40,8 +40,8 @@ opt.undofile = false -- stop unlimited undo to even changes made in previous ses
 -- no swap file ----------------------------------------------------------------
 vim.cmd("set noswapfile")
 
--- syntax ----------------------------------------------------------------------
-vim.cmd("syntax on")
+-- -- syntax ----------------------------------------------------------------------
+-- vim.cmd("syntax on")
 
 -- specify file format ---------------------------------------------------------
 -- to remove the ^M character at the end of each line
