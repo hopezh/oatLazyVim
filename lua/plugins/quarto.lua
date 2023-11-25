@@ -18,8 +18,8 @@ return {
         dependencies = {
             "neovim/nvim-lspconfig",
             "hrsh7th/nvim-cmp",
-            "jmbuhr/otter.nvim",
             "nvim-treesitter/nvim-treesitter",
+            "jmbuhr/otter.nvim",
         },
 
         keys = {
@@ -88,6 +88,13 @@ return {
     -- config of dependencies --------------------------------------------------
     {
         "jmbuhr/otter.nvim",
+
+        dependencies = {
+            "hrsh7th/nvim-cmp",
+            "neovim/nvim-lspconfig",
+            "nvim-treesitter/nvim-treesitter",
+        },
+
         opts = {
             buffers = {
                 set_filetype = true,

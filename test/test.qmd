@@ -21,9 +21,18 @@ theta = 2 * np.pi * r
 fig, ax = plt.subplots(
   subplot_kw = {'projection': 'polar'}
 )
-ax.plot(theta, r);
-ax.set_rticks([0.5, 1, 1.5, 2]);
-ax.grid(True);
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
 plt.show()
 ```
 
+
+<html>
+    <style>
+        # hello {
+            color: red; 
+            background-color: blue;
+        }
+    </style>
+</html>
