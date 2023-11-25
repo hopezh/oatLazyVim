@@ -9,6 +9,8 @@ return {
     {
         "quarto-dev/quarto-nvim",
 
+        lazy = false,
+
         dev = false,
 
         ft = "quarto",
