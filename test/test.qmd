@@ -8,6 +8,9 @@ format:
 jupyter: python3
 ---
 
+# Sec 1
+
+## Sec 1.1
 
 ```{python}
 #| label: fig-polar
@@ -27,6 +30,8 @@ ax.grid(True)
 plt.show()
 ```
 
+
+# Sec 2
 
 <html>
     <style>
