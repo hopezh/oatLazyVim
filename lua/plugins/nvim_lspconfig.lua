@@ -2,6 +2,7 @@ return {
     {
         "neovim/nvim-lspconfig",
 
+        -- stylua: ignore
         ---@class PluginLspOpts
         opts = {
             ---@type lspconfig.options
@@ -16,7 +17,11 @@ return {
                     -- [core]
                     -- markdown.file_extensions = ["md", "markdown", "qmd"]
                     filetypes = { "markdown", "quarto" },
-                    root_dir = require("lspconfig.util").root_pattern(".git", ".marksman.toml", "_quarto.yml"),
+                    root_dir = require("lspconfig.util").root_pattern(
+                        ".git",
+                        ".marksman.toml",
+                        "_quarto.yml"
+                    ),
                 },
                 mojo = {},
             },
